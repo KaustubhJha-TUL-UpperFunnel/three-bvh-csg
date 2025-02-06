@@ -99,7 +99,7 @@ async function init() {
 
 	const gltf = await new GLTFLoader()
 		.setMeshoptDecoder( MeshoptDecoder )
-		.loadAsync( 'https://raw.githubusercontent.com/gkjohnson/3d-demo-data/main/models/stanford-bunny/bunny.glb' );
+		.loadAsync( 'https://raw.githubusercontent.com/KaustubhJha-TUL-UpperFunnel/3d-demo-data/blob/KaustubhJha-TUL-UpperFunnel-patch-1/models/stanford-bunny/scene%20(7).glb' );
 
 	const geometry = gltf.scene.children[ 0 ].geometry;
 	geometry.computeVertexNormals();
